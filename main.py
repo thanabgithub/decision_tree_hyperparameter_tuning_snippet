@@ -1,5 +1,5 @@
 from sklearn.datasets import load_iris
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt
